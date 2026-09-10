@@ -1,0 +1,22 @@
+const Fantasy = () => {
+  return (
+    <div className="">
+      {/*
+      <div className="main-title-fantasy">
+        <h1 className="title2">Fantasy</h1>
+        <h1 className="title1"> Draft</h1>
+      </div>*/}
+      <div className='progress-container'>
+        <p>🕓 <em>You are early!</em></p>
+
+        <p>
+          This page is still in development and will be released in the coming weeks.
+          We aim to have it released in <strong>mid-November</strong>, so to tune back
+          in around then. Feel free to explore the rest of FBCNS in the meanwhilst...
+        </p>
+      </div>
+    </div>
+  )
+}
+
+export default Fantasy
