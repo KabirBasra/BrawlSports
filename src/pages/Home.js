@@ -8,7 +8,7 @@ import fantasyDraftImg from '../images/Fantasy_Draft_Examplev1.png';
 // Countdown componenet to next BSC event
 //    -> Need to add to reusable compoenents!
 const CountdownTimer = () => {
-  const targetDate = new Date('2026-10-17T10:00:00').getTime();
+  const targetDate = new Date('2026-10-17T06:00:00').getTime();
 	/* WFs is: '2026-11-20T10:00:00' */
 
   const calculateTimeLeft = () => {
