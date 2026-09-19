@@ -10,6 +10,7 @@ import Update from "./pages/Update";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
+import About from "./pages/About";
 
 // Navigating webpages
 const Navigation = () => {
@@ -53,6 +54,7 @@ export default function App() {
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
             <Route path='/profile' element={<Profile />} />
+            <Route path='/about' element={<About />} />
           </Routes>
         </div>
 
