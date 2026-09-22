@@ -6,6 +6,23 @@ const About = () => {
         <h1 className="title2">About</h1>
         <h1 className="title1"> BSN</h1>
       </div>
+      <h3>The Team</h3>
+
+      <div className="about-members">
+        <div className="about-member">
+          <h4>Kabir</h4>
+          <span>Founder & Lead Developer</span>
+        </div>
+
+        <div className="about-member-info">
+          <span>Founder of BrawlSports.gg and head of development</span>
+          <span><a href="https://www.linkedin.com/in/kabir-basra-435b65282/">LinkedIn</a></span>
+          <span><a href="https://github.com/KabirBasra">GitHub</a></span>
+        </div>
+      </div>
+
+      <br></br>
+
       <div className='progress-container'>
         <p>🕓 <em>You are early!</em></p>
 

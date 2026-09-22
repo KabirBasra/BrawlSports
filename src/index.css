@@ -502,6 +502,71 @@ nav a:hover {
 
 
 
+/* About */
+.about-members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 50px 50px;
+  margin: 0 auto;
+}
+
+.about-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 120px;
+  align-items: center;
+  padding: 50px 50px;
+  margin: 0 auto;
+
+  border-color: #444;
+  border-style: solid;
+  border-top-width: 4px;
+  border-left-width: 4px;
+  border-right-width: 4px;
+  border-bottom-width: 8px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.about-member-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 620px;
+  align-items: center;
+  padding: 50px 50px;
+  margin: 0 auto;
+
+  border-color: #444;
+  border-style: solid;
+  border-top-width: 4px;
+  border-left-width: 4px;
+  border-right-width: 4px;
+  border-bottom-width: 8px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.about-member h4 {
+  font-size: 18px;
+}
+
+
+.about-member span {
+  font-size: 14px;
+}
+
+
+
+
+
+
 
 
 /* Footer */
