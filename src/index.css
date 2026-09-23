@@ -538,8 +538,10 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  height: 100%;
   max-width: 620px;
-  align-items: center;
+  max-height: 120px;
+  align-items: left;
   padding: 50px 50px;
   margin: 0 auto;
 
@@ -561,6 +563,11 @@ nav a:hover {
 .about-member span {
   font-size: 14px;
 }
+/*
+.about-member-info p {
+  gap: 3px !important;
+}
+  */
 
 
 

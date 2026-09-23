@@ -11,25 +11,36 @@ const About = () => {
       <div className="about-members">
         <div className="about-member">
           <h4>Kabir</h4>
-          <span>Founder & Lead Developer</span>
+          <span>Founder</span>
         </div>
 
         <div className="about-member-info">
-          <span>Founder of BrawlSports.gg and head of development</span>
-          <span><a href="https://www.linkedin.com/in/kabir-basra-435b65282/">LinkedIn</a></span>
-          <span><a href="https://github.com/KabirBasra">GitHub</a></span>
+          <h3>Kabir Basra</h3>
+          <p>
+            <i>Role:</i> Founder and Head of Development. <br/>
+            <i>Fav Teams:</i> Hmble <br/>
+            <i>Fav Brawler:</i> Sprout, Kaze & Surge
+          </p>
+          <span>
+            <a href="https://www.linkedin.com/in/kabir-basra-435b65282/">LinkedIn</a>
+            <span> </span> 
+            <a href="https://github.com/KabirBasra">GitHub</a>
+            <span> </span>
+          </span>
+          
         </div>
       </div>
 
       <br></br>
 
       <div className='progress-container'>
-        <p>🕓 <em>You are early!</em></p>
+        <p>🕓 <em>And that's the team!</em></p>
 
         <p>
-          This page is still in development and will be released in the coming days.
-          We aim to have it released in <strong>early October</strong>, so to tune back
-          in around then. Feel free to explore the rest of BSN in the meanwhilst...
+          BrawlSports is still in early development, but we <i>might</i> have oportunities
+          for people to join the team in the future. If you are intrested in any writing, graphics
+          or content creation roles in the future, then stay tuned and follow our
+          socials on X and YouTube :)
         </p>
       </div>
     </div>
