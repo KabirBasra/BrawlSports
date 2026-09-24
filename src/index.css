@@ -563,11 +563,20 @@ nav a:hover {
 .about-member span {
   font-size: 14px;
 }
-/*
-.about-member-info p {
-  gap: 3px !important;
+
+.section-break  {
+  margin-top: 42px;
+  margin-bottom: 42px;
+  border-color: #aaa;
+  border-style: solid;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-radius: 1px;
+  background-color: #fff;
 }
-  */
+  
 
 
 

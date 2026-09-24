@@ -6,6 +6,17 @@ const About = () => {
         <h1 className="title2">About</h1>
         <h1 className="title1"> BSN</h1>
       </div>
+
+      
+      <h3>BrawlSports</h3>
+      <p>
+        BrawlSports.gg aims to provide a unqiue viewership experience to Brawl Stars Esports. 
+        We are dedicated to provide the best statistical tools, analytical breakdowns, one of a kind
+        fantasy game and more to the community.<br/>
+      </p>
+
+      <div className="section-break"/>
+
       <h3>The Team</h3>
 
       <div className="about-members">
@@ -18,7 +29,7 @@ const About = () => {
           <h3>Kabir Basra</h3>
           <p>
             <i>Role:</i> Founder and Head of Development. <br/>
-            <i>Fav Teams:</i> Hmble <br/>
+            <i>Supports:</i> Hmble <br/>
             <i>Fav Brawler:</i> Sprout, Kaze & Surge
           </p>
           <span>
