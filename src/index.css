@@ -502,6 +502,9 @@ nav a:hover {
 
 
 
+
+
+
 /* About */
 .about-members {
   display: flex;
@@ -518,9 +521,9 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 120px;
+  max-width: 140px;
   align-items: center;
-  padding: 50px 50px;
+  padding: 10px 50px;
   margin: 0 auto;
 
   border-color: #444;
@@ -555,6 +558,11 @@ nav a:hover {
   background-color: #fff;
 }
 
+.member-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .about-member h4 {
   font-size: 18px;
 }
@@ -563,6 +571,16 @@ nav a:hover {
 .about-member span {
   font-size: 14px;
 }
+
+.about-img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+}
+
 
 .section-break  {
   margin-top: 42px;

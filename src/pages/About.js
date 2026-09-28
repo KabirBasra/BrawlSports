@@ -1,3 +1,5 @@
+import kabir_basra from '../images/Kabir_Basra.jpeg';
+
 const About = () => {
   return (
     <div className="">
@@ -8,12 +10,43 @@ const About = () => {
       </div>
 
       
-      <h3>BrawlSports</h3>
-      <p>
-        BrawlSports.gg aims to provide a unqiue viewership experience to Brawl Stars Esports. 
-        We are dedicated to provide the best statistical tools, analytical breakdowns, one of a kind
-        fantasy game and more to the community.<br/>
-      </p>
+      <h3>BrawlSports</h3> <br/>
+
+      {/* Questions and Answers */}
+      <details>
+        <summary>What is our objective?</summary>
+        <div class="">
+          <p>
+            BrawlSports aims to provide a unqiue perseptvite to Brawl Stars Esports viewership.
+            Through our development, we want to create tools that allows fans to dive deeper into
+            the action through statistical reviews, analytical breakdowns, one of a akind fantasy
+            game and more...
+          </p>
+        </div>
+      </details>
+      <br/>
+      <details>
+        <summary>When was BSN founded?</summary>
+        <div class="">
+          <p>
+            BrawlSports Network was initally conceptualised in May 2025, with deelopment starting
+            that summer. We are currently still at the beginning of devlopment but we can guarantee
+            that more and great features will be coming soon...
+          </p>
+        </div>
+      </details>
+      <br/>
+      <details>
+        <summary>What can we expect next?</summary>
+        <div class="">
+          <p>
+            After finalising development of our fantasy and blog-post section, we will continue
+            our operations towards social media platforms, inlcuding X, YouTube and more...
+            <br/>(that is all we can say for now 🤫)
+          </p>
+        </div>
+      </details>
+
 
       <div className="section-break"/>
 
@@ -21,12 +54,14 @@ const About = () => {
 
       <div className="about-members">
         <div className="about-member">
-          <h4>Kabir</h4>
+          <p className="member-name">Kabir Basra</p>
+          <img src={kabir_basra} alt="Kabir_Basra" className="about-img"/>
           <span>Founder</span>
         </div>
 
         <div className="about-member-info">
           <h3>Kabir Basra</h3>
+          
           <p>
             <i>Role:</i> Founder and Head of Development. <br/>
             <i>Supports:</i> Hmble <br/>
@@ -42,7 +77,7 @@ const About = () => {
         </div>
       </div>
 
-      <br></br>
+      <div className="section-break"/>
 
       <div className='progress-container'>
         <p>🕓 <em>And that's the team!</em></p>
